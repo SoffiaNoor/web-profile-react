@@ -9,36 +9,6 @@ const Design = () => {
         AOS.init();
     }, []);
 
-    useEffect(() => {
-        const cursorRounded = document.querySelector('.rounded');
-        const firstSection = document.querySelector('.section-area');
-
-        const moveCursor = (e) => {
-            const rect = firstSection.getBoundingClientRect();
-            const mouseX = e.clientX;
-            const mouseY = e.clientY;
-
-            // Check if the mouse is inside the first section
-            if (
-                mouseX >= rect.left &&
-                mouseX <= rect.right &&
-                mouseY >= rect.top &&
-                mouseY <= rect.bottom
-            ) {
-                cursorRounded.style.opacity = '1';
-                cursorRounded.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-            } else {
-                cursorRounded.style.opacity = '0'; // Hide cursor when outside
-            }
-        };
-
-        window.addEventListener('mousemove', moveCursor);
-
-        return () => {
-            window.removeEventListener('mousemove', moveCursor);
-        };
-    }, []);
-
     const scrollToNextSection = () => {
         if (secondSectionRef.current) {
             secondSectionRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -87,21 +57,17 @@ const Design = () => {
 
     return (
         <>
-            <div className="section-area cursor-none">
+            <div className="section-area">
                 <section
                     className="lg:h-screen min-h-screen bg-gradient-radial from-[#323232] to-[#53524d] content-center"
                 >
-                    <div className="rounded"></div>
-                    <div className="px-8 lg:py-0 py-8 md:px-auto my-auto flex flex-col items-center justify-center h-full">
+                    <div className="text-center">
                         {/* Introduction Section */}
                         <div className="mx-auto text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
                             What I <span className="bg-gradient-radial from-[#ea891d] to-[#ffe4c6] bg-clip-text text-transparent">Designed</span>
                         </div>
-                        <div className="mx-auto mt-0 lg:mt-8 text-center font-yeseva text-white lg:text-3xl border border-white rounded-full py-2 px-5 md:text-4xl text-4xl mb-2">
+                        <div className="mx-auto mt-0 lg:w-1/3 w-1/2 lg:mt-8 text-center font-yeseva text-white lg:text-3xl border border-white rounded-full py-2 lg:px-3 md:text-4xl text-xl mb-2">
                             @designsbySoffia
-                        </div>
-                        {/* Grid Section */}
-                        <div className="flex grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 mx-auto">
                         </div>
                     </div>
                     <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">

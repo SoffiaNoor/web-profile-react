@@ -54,7 +54,7 @@ const Welcome = () => {
             <section
                 className="first-section h-screen bg-gradient-radial from-[#323232] to-[#53524d] cursor-none before:bg-[#53524d] transition-all duration-200 before:absolute"
             >
-                <div className="rounded"></div>
+                <div className="rounded lg:block hidden"></div>
                 <div className="px-8 md:px-auto flex items-center justify-center h-full">
                     <div className="mx-auto md:px-4 container gap-8">
                         <div className="flex flex-col justify-center">

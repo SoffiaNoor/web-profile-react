@@ -9,36 +9,6 @@ const AI = () => {
         AOS.init();
     }, []);
 
-    useEffect(() => {
-        const cursorRounded = document.querySelector('.rounded');
-        const firstSection = document.querySelector('.section-area');
-
-        const moveCursor = (e) => {
-            const rect = firstSection.getBoundingClientRect();
-            const mouseX = e.clientX;
-            const mouseY = e.clientY;
-
-            // Check if the mouse is inside the first section
-            if (
-                mouseX >= rect.left &&
-                mouseX <= rect.right &&
-                mouseY >= rect.top &&
-                mouseY <= rect.bottom
-            ) {
-                cursorRounded.style.opacity = '1';
-                cursorRounded.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-            } else {
-                cursorRounded.style.opacity = '0'; // Hide cursor when outside
-            }
-        };
-
-        window.addEventListener('mousemove', moveCursor);
-
-        return () => {
-            window.removeEventListener('mousemove', moveCursor);
-        };
-    }, []);
-
     const scrollToNextSection = () => {
         if (secondSectionRef.current) {
             secondSectionRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -65,11 +35,10 @@ const AI = () => {
 
     return (
         <>
-            <div className="section-area cursor-none">
+            <div className="section-area">
                 <section
                     className="min-h-screen lg:h-screen bg-gradient-radial from-[#323232] to-[#53524d] flex items-center justify-center"
                 >
-                    <div className="rounded"></div>
                     <div className="text-center">
                         {/* Introduction Section */}
                         <div className="font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
