@@ -69,7 +69,7 @@ const Welcome = () => {
                                 </div>
                                 <div className="w-full mt-5 animate-slidein500 opacity-0">
                                     <div className="flex space-x-5">
-                                        <a href="https://www.instagram.com/soffia.n.a/" target="_blank" rel="noreferrer" className="relative px-2 py-2 w-16 h-16 overflow-hidden font-medium text-gray-600 bg-transparent border border-[#FF8B00] shadow-inner group rounded-full content-center" style={{ textAlignLast: 'center' }}>
+                                        <a href="https://www.instagram.com/soffia.n.a/" target="_blank" rel="noreferrer" className="relative p-3 w-16 h-16 overflow-hidden font-medium text-gray-600 bg-transparent border border-[#FF8B00] shadow-inner group rounded-full content-center" style={{ textAlignLast: 'center' }}>
                                             <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-amber-300 group-hover:w-full ease"></span>
                                             <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-amber-300 group-hover:w-full ease"></span>
                                             <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-amber-300 group-hover:h-full ease"></span>
@@ -77,7 +77,7 @@ const Welcome = () => {
                                             <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-amber-500 opacity-0 group-hover:opacity-100"></span>
                                             <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease"><i className="fab fa-instagram group-hover:text-white text-[#FF8B00] text-2xl md:text-3xl lg:text-4xl"></i></span>
                                         </a>
-                                        <a href="https://www.linkedin.com/in/soffianooraisyah/" target="_blank" rel="noreferrer" className="relative px-2 py-2 w-16 h-16 overflow-hidden font-medium text-gray-600 bg-transparent border border-[#FF8B00] shadow-inner group rounded-full content-center" style={{ textAlignLast: 'center' }}>
+                                        <a href="https://www.linkedin.com/in/soffianooraisyah/" target="_blank" rel="noreferrer" className="relative p-3 w-16 h-16 overflow-hidden font-medium text-gray-600 bg-transparent border border-[#FF8B00] shadow-inner group rounded-full content-center" style={{ textAlignLast: 'center' }}>
                                             <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-amber-300 group-hover:w-full ease"></span>
                                             <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-amber-300 group-hover:w-full ease"></span>
                                             <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-amber-300 group-hover:h-full ease"></span>
@@ -85,7 +85,7 @@ const Welcome = () => {
                                             <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-amber-500 opacity-0 group-hover:opacity-100"></span>
                                             <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease"><i className="fab fa-linkedin group-hover:text-white text-[#FF8B00] text-2xl md:text-3xl lg:text-4xl"></i></span>
                                         </a>
-                                        <a href="https://github.com/SoffiaNoor" target="_blank" rel="noreferrer" className="relative px-2 py-2 w-16 h-16 overflow-hidden font-medium text-gray-600 bg-transparent border border-[#FF8B00] shadow-inner group rounded-full content-center" style={{ textAlignLast: 'center' }}>
+                                        <a href="https://github.com/SoffiaNoor" target="_blank" rel="noreferrer" className="relative p-3 w-16 h-16 overflow-hidden font-medium text-gray-600 bg-transparent border border-[#FF8B00] shadow-inner group rounded-full content-center" style={{ textAlignLast: 'center' }}>
                                             <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-amber-300 group-hover:w-full ease"></span>
                                             <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-amber-300 group-hover:w-full ease"></span>
                                             <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-amber-300 group-hover:h-full ease"></span>

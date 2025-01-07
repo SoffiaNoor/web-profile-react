@@ -7,7 +7,7 @@ const Loader = ({ isExiting }) => {
                 }`}
         >
             <div className="flex gap-2">
-                <div className="font-yeseva lg:text-8xl text-6xl animate-hourglassS lg:w-36 lg:h-36 w-24 h-24 rounded-full border border-white text-center place-content-center">
+                <div className="font-yeseva lg:text-8xl text-6xl animate-hourglassS lg:w-36 lg:h-36 w-24 h-24 rounded-full border border-white p-5 text-center place-content-center">
                     S
                 </div>
             </div>
