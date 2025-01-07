@@ -67,19 +67,16 @@ const AI = () => {
         <>
             <div className="section-area cursor-none">
                 <section
-                    className="lg:h-screen min-h-screen bg-gradient-radial from-[#323232] to-[#53524d] content-center"
+                    className="min-h-screen lg:h-screen bg-gradient-radial from-[#323232] to-[#53524d] flex items-center justify-center"
                 >
                     <div className="rounded"></div>
-                    <div className="px-8 lg:py-0 py-8 md:px-auto my-auto flex flex-col items-center justify-center h-full">
+                    <div className="text-center">
                         {/* Introduction Section */}
-                        <div className="mx-auto text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
+                        <div className="font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
                             What I <span className="bg-gradient-radial from-[#ea891d] to-[#ffe4c6] bg-clip-text text-transparent">Explored</span>
                         </div>
-                        <div className="mx-auto mt-0 lg:mt-24 text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
+                        <div className="font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mt-6">
                             with AI
-                        </div>
-                        {/* Grid Section */}
-                        <div className="flex grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 mx-auto">
                         </div>
                     </div>
                     <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
