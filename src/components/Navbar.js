@@ -88,11 +88,11 @@ function Navbar() {
                                     className={`transition ease-in delay-100 duration-100 block py-2 px-3 hover:text-[#FF8B00] hover:underline hover:underline-offset-8 hover:decoration-4 hover:font-bold ${isActive('/Gallery') ? 'text-[#FF8B00] underline underline-offset-8 decoration-4 font-bold' : ''}`}
                                 >GALLERY</Link>
                             </li>
-                            {/* <li>
+                            <li>
                                 <Link to="/Contact"
                                     className={`transition ease-in delay-100 duration-100 block py-2 px-3 hover:text-[#FF8B00] hover:underline hover:underline-offset-8 hover:decoration-4 hover:font-bold ${isActive('/Contact') ? 'text-[#FF8B00] underline underline-offset-8 decoration-4 font-bold' : ''}`}
                                 >CONTACT</Link>
-                            </li> */}
+                            </li>
                         </ul>
                     </div>
                 </div>
