@@ -59,14 +59,14 @@ const Design = () => {
         <>
             <div className="section-area">
                 <section
-                    className="lg:h-screen min-h-screen bg-gradient-radial from-[#323232] to-[#53524d] content-center"
+                    className="lg:h-screen min-h-screen bg-gradient-radial from-[#323232] to-[#53524d] flex items-center justify-center relative"
                 >
                     <div className="text-center">
                         {/* Introduction Section */}
-                        <div className="mx-auto text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
+                        <div className="font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-6">
                             What I <span className="bg-gradient-radial from-[#ea891d] to-[#ffe4c6] bg-clip-text text-transparent">Designed</span>
                         </div>
-                        <div className="mx-auto mt-0 lg:w-1/3 w-1/2 lg:mt-8 text-center font-yeseva text-white lg:text-3xl border border-white rounded-full py-2 lg:px-3 md:text-4xl text-xl mb-2">
+                        <div className="mt-6 w-full text-center font-yeseva text-white lg:text-3xl border border-white rounded-full py-2 px-4 md:text-4xl text-xl">
                             @designsbySoffia
                         </div>
                     </div>

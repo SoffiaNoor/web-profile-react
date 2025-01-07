@@ -19,14 +19,14 @@ const WebDev = () => {
         <>
             <div className="section-area">
                 <section
-                    className="lg:h-screen min-h-screen bg-gradient-to-b from-[#4b4a46] to-[#20201e] content-center"
+                    className="lg:h-screen min-h-screen bg-gradient-to-b from-[#4b4a46] to-[#20201e] flex items-center justify-center relative"
                 >
                     <div className="text-center">
                         {/* Introduction Section */}
-                        <div className="mx-auto text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
+                        <div className="font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
                             What I <span className="bg-gradient-radial from-[#ea891d] to-[#ffe4c6] bg-clip-text text-transparent">Created</span>
                         </div>
-                        <div className="mx-auto mt-0 lg:mt-24 text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
+                        <div className="font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mt-6">
                             as Web Developer
                         </div>
                     </div>
