@@ -92,7 +92,7 @@ const Design = () => {
                     className="lg:h-screen min-h-screen bg-gradient-radial from-[#323232] to-[#53524d] content-center"
                 >
                     <div className="rounded"></div>
-                    <div className="px-8 lg:py-0 py-8 md:px-auto flex flex-col items-center justify-center h-full">
+                    <div className="px-8 lg:py-0 py-8 md:px-auto my-auto flex flex-col items-center justify-center h-full">
                         {/* Introduction Section */}
                         <div className="mx-auto text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
                             What I <span className="bg-gradient-radial from-[#ea891d] to-[#ffe4c6] bg-clip-text text-transparent">Designed</span>

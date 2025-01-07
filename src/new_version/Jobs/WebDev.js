@@ -52,7 +52,7 @@ const WebDev = () => {
                     className="lg:h-screen min-h-screen bg-gradient-to-b from-[#4b4a46] to-[#20201e] content-center"
                 >
                     <div className="rounded"></div>
-                    <div className="px-8 lg:py-0 py-8 md:px-auto flex flex-col items-center justify-center h-full content-center">
+                    <div className="px-8 lg:py-0 py-8 md:px-auto my-auto flex flex-col items-center justify-center h-full content-center">
                         {/* Introduction Section */}
                         <div className="mx-auto text-center font-yeseva text-white lg:text-8xl md:text-5xl text-4xl mb-2">
                             What I <span className="bg-gradient-radial from-[#ea891d] to-[#ffe4c6] bg-clip-text text-transparent">Created</span>
