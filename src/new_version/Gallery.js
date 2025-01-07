@@ -37,8 +37,8 @@ const Gallery = () => {
     return (
         <>
             <section className="h-auto min-h-screen bg-gradient-radial from-[#323232] to-[#53524d] py-10 w-full content-center" id="my_gallery">
-                <div className="flex flex-col items-center justify-center my-auto h-full content-center lg:pt-24">
-                    <div className="text-left font-yeseva text-white lg:text-6xl text-4xl mb-2">
+                <div className="flex flex-col items-center justify-center my-auto h-full content-center pt-10 lg:pt-24">
+                    <div className="text-left font-yeseva text-white lg:text-6xl text-4xl mb-2 lg:pt-0 pt-10">
                         My <span className="bg-gradient-radial from-[#ea891d] to-[#ffe4c6] bg-clip-text text-transparent">Gallery</span>
                     </div>
                     <div className="sliderAx h-auto w-full py-10">
